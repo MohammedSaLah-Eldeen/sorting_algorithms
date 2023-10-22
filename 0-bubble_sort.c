@@ -16,7 +16,7 @@ return;
 
 for (j = 0; j < s - 1; j++)
 {
-for (i = 0; i < s - 1; i++)
+for (i = 0; i < s - j - 1; i++)
 {
 if (array[i + 1] < array[i])
 {
